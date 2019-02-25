@@ -1,5 +1,5 @@
 {
-  "name": "dev-server-announcer",
+  "name": "discover-yourself",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "kabbi",
   "license": "ISC",
   "dependencies": {
     "sshpk": "^1.16.1"
