@@ -1,15 +1,27 @@
 {
-  "name": "discover-yourself",
+  "name": "@kabbi/discover-yourself",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple and hopefully secure broadcast udp service discovery",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "kabbi",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kabbi/discover-yourself.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kabbi/discover-yourself/issues"
+  },
+  "homepage": "https://github.com/kabbi/discover-yourself#readme",
   "dependencies": {
     "sshpk": "^1.16.1"
-  }
+  },
+  "directories": {
+    "example": "example"
+  },
+  "devDependencies": {}
 }

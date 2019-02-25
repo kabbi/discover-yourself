@@ -8,7 +8,7 @@ Well, you should just `discover-yourself`. It's using simple broadcast udp with 
 Somewhere:
 
 ```js
-const { createListener } = require('discover-yourself');
+const { createListener } = require('@kabbi/discover-yourself');
 
 const listener = createListener({
   publicKeyPath: 'key.pub',
@@ -22,7 +22,7 @@ listener.on('announcement', ({ tag, port, address }) => {
 Somewhere else:
 
 ```js
-const { createAnnouncer } = require('discover-yourself');
+const { createAnnouncer } = require('@kabbi/discover-yourself');
 
 const announcer = createAnnouncer({
   privateKeyPath: 'example.key',
